@@ -2,7 +2,7 @@
     1.install docker 
     2.install docker-composer
 
-#Go to /bin/php8/DockerFile
+# Go to /bin/php8/DockerFile
 change var $user to your pc user 
 or comment this line container work with root user 
 
