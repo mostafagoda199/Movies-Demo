@@ -1,7 +1,7 @@
-#Import postman collection link
+# Import postman collection link
     https://www.getpostman.com/collections/2c866e2fcaf80b46d09a
 
-#Set database config
+# Set database config
     DB_CONNECTION=mysql
     DB_HOST=database
     DB_PORT=3306
@@ -9,15 +9,15 @@
     DB_USERNAME=root
     DB_PASSWORD=admin
 
-#Run test
+# Run test
     php artisan test
 
-#Run schedule task
+# Run schedule task
     php artisan schedule:run
 
-#Run queue worker
+# Run queue worker
     php artisan queue:work --timeout=9999
 
-#Run if any job fail 
+# Run if any job fail 
     php artisan queue:retry all 
 
